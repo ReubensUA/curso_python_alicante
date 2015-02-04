@@ -11,7 +11,7 @@ def test1():
 
 
 def test2():
-    lista = [1, 2, 1, 2, 3]
+    lista = [1, 2, 1, 2, 4]
     resultado_esperado = [1, 4]
     resultado = find_maxima(lista)
     assert resultado == resultado_esperado
